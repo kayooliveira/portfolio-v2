@@ -4,6 +4,6 @@
 
 
 body {
-  @apply font-default bg-background;
+  @apply font-default bg-background text-white;
   scroll-behavior: smooth;
 }
