@@ -123,7 +123,7 @@ export function About() {
       image: 'https://i.imgur.com/KoBCjb4.png',
       company: 'Ignite Lab',
       description:
-        'Plataforma de hospedagem de videaulas, desenvolvido usando React integrando com Apollo Client e GraphCMS.',
+        'Plataforma de hospedagem de videoulas, desenvolvido usando React integrando com Apollo Client e GraphCMS.',
       url: 'https://ignite.lab.kayooliveira.com'
     }
   ]
@@ -138,7 +138,7 @@ export function About() {
         <strong>Cachoeiras de Macacu - Rio de Janeiro</strong>. Sou{' '}
         <strong>Desenvolvedor Full Stack</strong> e trabalho atualmente com{' '}
         <strong>React e Node/PHP</strong>. Desde novo sempre fui apaixonado por
-        tecnologia, começei a estudar programação em 2015 porque um amigo meu
+        tecnologia, comecei a estudar programação em 2015 porque um amigo meu
         era/ainda é programador e eu era apaixonado em ver aquelas telas pretas
         com um monte de nomes misturados que no fim formavam um site ou um
         programinha sensacional, desde então sempre procurei estudar mais e mais

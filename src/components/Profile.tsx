@@ -34,7 +34,7 @@ export function Profile() {
           - RJ
         </span>
         <span className="flex items-center gap-2 text-sm">
-          <Flag weight="fill" fill="#E62DF6" size="20" /> Portugês / Inglês
+          <Flag weight="fill" fill="#E62DF6" size="20" /> Português / Inglês
         </span>
       </div>
     </aside>
