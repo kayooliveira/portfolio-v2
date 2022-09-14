@@ -125,6 +125,13 @@ export function About() {
       description:
         'Plataforma de hospedagem de videoulas, desenvolvido usando React integrando com Apollo Client e GraphCMS.',
       url: 'https://ignite.lab.kayooliveira.com'
+    },
+    {
+      image: 'https://i.imgur.com/tjzqiQ7.png',
+      company: 'Plinko',
+      description:
+        'Uma versão do jogo Plinko, desenvolvido usando React + Redux e Firebase.',
+      url: 'https://plinko.kayooliveira.com'
     }
   ]
   return (
