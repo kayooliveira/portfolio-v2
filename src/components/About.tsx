@@ -130,7 +130,7 @@ export function About() {
       image: 'https://i.imgur.com/tjzqiQ7.png',
       company: 'Plinko',
       description:
-        'Uma versão do jogo Plinko, desenvolvido usando React + Redux e Firebase.',
+        'Uma versão do jogo Plinko, desenvolvido usando React + Zustand e Firebase.',
       url: 'https://plinko.kayooliveira.com'
     }
   ]
