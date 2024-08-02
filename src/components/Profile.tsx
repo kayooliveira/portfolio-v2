@@ -1,4 +1,4 @@
-import { Baby, EnvelopeOpen, Flag, MapPin } from 'phosphor-react'
+import { Baby, EnvelopeOpen, Flag, MapPin, Users } from 'phosphor-react'
 import React from 'react'
 
 export function Profile() {
@@ -24,6 +24,9 @@ export function Profile() {
       </strong>
       <div className="mt-4 flex flex-col items-start justify-start gap-4">
         <span className="flex items-center gap-2 text-sm">
+          <Users weight="fill" fill="#E62DF6" size="20" /> Casado
+        </span>
+        <span className="flex items-center gap-2 text-sm">
           <Baby weight="fill" fill="#E62DF6" size="20" /> {age} anos
         </span>
         <span className="flex items-center gap-2 text-sm">
@@ -31,11 +34,11 @@ export function Profile() {
           contato@kayooliveira.com
         </span>
         <span className="flex items-center gap-2 text-sm">
-          <MapPin weight="fill" fill="#E62DF6" size="20" /> Cachoeiras de Macacu
-          - RJ
+          <MapPin weight="fill" fill="#E62DF6" size="20" /> Nova Friburgo - RJ
         </span>
         <span className="flex items-center gap-2 text-sm">
           <Flag weight="fill" fill="#E62DF6" size="20" /> Português / Inglês
+          (intermediário)
         </span>
       </div>
     </aside>
