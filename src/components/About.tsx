@@ -1,7 +1,3 @@
-import HorizontalScroll from 'react-scroll-horizontal'
-
-import { JobCard } from './JobCard'
-import { SkillCard } from './SkillCard'
 import {
   AmazonwebservicesOriginalWordmark,
   Css3Original,
@@ -16,6 +12,10 @@ import {
   ReactOriginalWordmark,
   TypescriptOriginal
 } from 'devicons-react'
+import HorizontalScroll from 'react-scroll-horizontal'
+
+import { JobCard } from './JobCard'
+import { SkillCard } from './SkillCard'
 
 export function About() {
   const skills = [
@@ -131,6 +131,13 @@ export function About() {
       url: 'https://ignite.todo.kayooliveira.com'
     },
     {
+      image: 'https://i.imgur.com/hldKmSf.png',
+      company: 'DinoDo',
+      description:
+        'App Mobile de lista de tarefas desenvolvido usando React Native.',
+      url: 'https://kayooliveira.com'
+    },
+    {
       image: 'https://i.imgur.com/qtqsblI.png',
       company: 'FeedGet',
       description:
@@ -148,7 +155,7 @@ export function About() {
   const age = new Date().getFullYear() - 2002
 
   return (
-    <main className="w-full flex-1 rounded-lg bg-backgroundLight py-4 px-8">
+    <main className="w-full flex-1 rounded-lg bg-backgroundLight px-8 py-4">
       <h2 className="bg-gradient-to-r from-brand-100 to-highlight-100 bg-clip-text text-center text-lg font-bold text-transparent lg:text-2xl">
         Sobre mim
       </h2>
