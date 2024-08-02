@@ -21,7 +21,7 @@ export function Header() {
           </li>
           <li>
             <a
-              href="https://instagram.com/kayooliveira.dev"
+              href="https://instagram.com/kayooliveiradev"
               className="text-brand-100 transition-colors hover:text-highlight-100"
             >
               <InstagramLogo size="30" />

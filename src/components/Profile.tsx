@@ -2,6 +2,7 @@ import { Baby, EnvelopeOpen, Flag, MapPin } from 'phosphor-react'
 import React from 'react'
 
 export function Profile() {
+  const age = new Date().getFullYear() - 2002
   return (
     <aside className="mx-auto rounded-lg bg-backgroundLight p-4 px-12 lg:mx-0 ">
       <a
@@ -23,7 +24,7 @@ export function Profile() {
       </strong>
       <div className="mt-4 flex flex-col items-start justify-start gap-4">
         <span className="flex items-center gap-2 text-sm">
-          <Baby weight="fill" fill="#E62DF6" size="20" /> 20 anos
+          <Baby weight="fill" fill="#E62DF6" size="20" /> {age} anos
         </span>
         <span className="flex items-center gap-2 text-sm">
           <EnvelopeOpen weight="fill" fill="#E62DF6" size="20" />{' '}

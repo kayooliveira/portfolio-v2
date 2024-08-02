@@ -1,71 +1,70 @@
-import React from 'react'
 import HorizontalScroll from 'react-scroll-horizontal'
 
-import {
-  GraphQL,
-  HTML,
-  Javascript,
-  Laravel,
-  Linux,
-  MYSQL,
-  Node,
-  Typescript,
-  AWS,
-  CSS,
-  Php,
-  ReactJS
-} from './Icons'
 import { JobCard } from './JobCard'
 import { SkillCard } from './SkillCard'
+import {
+  AmazonwebservicesOriginalWordmark,
+  Css3Original,
+  GraphqlPlain,
+  Html5Original,
+  JavascriptOriginal,
+  LaravelOriginalWordmark,
+  LinuxOriginal,
+  MysqlOriginal,
+  NodejsOriginal,
+  PhpOriginal,
+  ReactOriginalWordmark,
+  TypescriptOriginal
+} from 'devicons-react'
 
 export function About() {
   const skills = [
     {
-      icon: HTML,
+      icon: Html5Original,
       title: 'HTML'
     },
     {
-      icon: CSS,
+      icon: Css3Original,
       title: 'CSS'
     },
     {
-      icon: Javascript,
+      icon: JavascriptOriginal,
       title: 'JavaScript'
     },
     {
-      icon: Typescript,
+      icon: TypescriptOriginal,
       title: 'TypeScript'
     },
     {
-      icon: ReactJS,
+      icon: ReactOriginalWordmark,
       title: 'ReactJS'
     },
     {
-      icon: Node,
+      icon: NodejsOriginal,
       title: 'Node.js'
     },
     {
-      icon: GraphQL,
+      icon: GraphqlPlain,
       title: 'GraphQL'
     },
     {
-      icon: Php,
+      icon: PhpOriginal,
       title: 'PHP'
     },
     {
-      icon: Laravel,
+      icon: LaravelOriginalWordmark,
       title: 'Laravel'
     },
     {
-      icon: MYSQL,
+      icon: MysqlOriginal,
       title: 'MySQL'
     },
     {
-      icon: AWS,
+      icon: AmazonwebservicesOriginalWordmark,
       title: 'AWS'
     },
     {
-      icon: Linux,
+      icon: LinuxOriginal,
       title: 'Linux'
     }
   ]
@@ -77,12 +76,45 @@ export function About() {
         'Manutenção do sistema interno da empresa e criação da nova aplicação para acesso dos clientes.',
       url: 'https://labs.life.vet.br'
     },
+
+    {
+      image: 'https://i.imgur.com/H6swOr4.png',
+      company: 'Life.Vet - Client',
+      description: 'Sistema para os clientes da Life.Vet.',
+      url: 'https://cliente.life.vet.br'
+    },
+    {
+      image: 'https://i.imgur.com/S9APeql.png',
+      company: 'Escola Akanbi',
+      description:
+        'Plataforma de venda de assinatura e cursos da escola Akanbi.',
+      url: 'https://escolaakanbi.com.br'
+    },
+    {
+      image: 'https://i.imgur.com/ny3WFpr.png',
+      company: 'Hitalo Rodrigues',
+      description: 'Plataforma por assinatura para personal trainer.',
+      url: 'https://hitalorodrigues.com.br'
+    },
+    {
+      image: 'https://i.imgur.com/OlkuQmy.png',
+      company: 'JR Gráfica',
+      description: 'Sistema para gerenciamento de gráfica e loja virtual.',
+      url: 'https://graficajr.com.br'
+    },
     {
       image: 'https://github.com/rangelimoveis.png',
       company: 'Rangel Imóveis',
       description:
         'Criação do sistema de gerenciamento de imobiliária e criação do website da empresa.',
       url: 'https://rangelimoveisrj.com.br'
+    },
+    {
+      image: 'https://i.imgur.com/tjzqiQ7.png',
+      company: 'Plinko Game',
+      description:
+        'Uma versão do jogo Plinko, desenvolvido usando React + Zustand e Firebase.',
+      url: 'https://plinko.kayooliveira.com'
     },
     {
       image: 'https://i.imgur.com/4RFbqQI.png',
@@ -99,13 +131,6 @@ export function About() {
       url: 'https://ignite.todo.kayooliveira.com'
     },
     {
-      image: 'https://i.imgur.com/jTifFk1.png',
-      company: 'Github Explorer',
-      description:
-        'Explorador de repositórios do Github, desenvolvido usando React.',
-      url: 'https://github-explorer.kayooliveira.com'
-    },
-    {
       image: 'https://i.imgur.com/qtqsblI.png',
       company: 'FeedGet',
       description:
@@ -113,27 +138,15 @@ export function About() {
       url: 'https://feedget.kayooliveira.com'
     },
     {
-      image: 'https://i.imgur.com/xPu5ut8.png',
-      company: 'Feed de Notícias',
-      description:
-        'Página de feed de notícias similar a uma rede social, desenvolvido usando React.',
-      url: 'https://ignite.feed.kayooliveira.com'
-    },
-    {
       image: 'https://i.imgur.com/KoBCjb4.png',
-      company: 'Ignite Lab',
+      company: 'Plataforma de Videoaulas',
       description:
         'Plataforma de hospedagem de videoulas, desenvolvido usando React integrando com Apollo Client e GraphCMS.',
       url: 'https://ignite.lab.kayooliveira.com'
-    },
-    {
-      image: 'https://i.imgur.com/tjzqiQ7.png',
-      company: 'Plinko',
-      description:
-        'Uma versão do jogo Plinko, desenvolvido usando React + Zustand e Firebase.',
-      url: 'https://plinko.kayooliveira.com'
     }
   ]
+  const age = new Date().getFullYear() - 2002
+
   return (
     <main className="w-full flex-1 rounded-lg bg-backgroundLight py-4 px-8">
       <h2 className="bg-gradient-to-r from-brand-100 to-highlight-100 bg-clip-text text-center text-lg font-bold text-transparent lg:text-2xl">
@@ -141,24 +154,12 @@ export function About() {
       </h2>
       <div className="my-2 h-0.5 w-full rounded-full bg-gradient-to-r from-brand-100 to-highlight-100 lg:my-4 lg:h-1"></div>
       <p className="text-sm leading-relaxed">
-        Olá, me chamo <strong>Kayo Oliveira</strong>, tenho 20 anos e moro em{' '}
-        <strong>Cachoeiras de Macacu - Rio de Janeiro</strong>. Sou{' '}
-        <strong>Desenvolvedor Full Stack</strong> e trabalho atualmente com{' '}
-        <strong>React e Node/PHP</strong>. Desde novo sempre fui apaixonado por
-        tecnologia, comecei a estudar programação em 2015 porque um amigo meu
-        era/ainda é programador e eu era apaixonado em ver aquelas telas pretas
-        com um monte de nomes misturados que no fim formavam um site ou um
-        programinha sensacional, desde então sempre procurei estudar mais e mais
-        o ramo da programação, estudei por um ano e em meados de 2017 arrumei um
-        emprego em uma loja na minha cidade, no qual me tomava bastante tempo,
-        com isso abandonei a programação, retornei em 2020 e mais focado que
-        nunca, nesse meio tempo me dediquei a aprender ReactJS, Typescript,
-        Node, GraphQL e muitas outras ferramentas, atualmente presto serviços
-        pra uma empresa chamada <strong>Life.Vet</strong> em
-        <strong> Nova Friburgo - RJ</strong>, lá eu desempenho funções como
-        manter o sistema interno da empresa, implementar novas funcionalidades,
-        cuidar da infraestrutura (AWS) e desenvolver novas aplicações e
-        microsserviços baseado nas necessidades da empresa.
+        Olá, sou Kayo Oliveira, um Desenvolvedor Full Stack de Nova Friburgo,
+        Rio de Janeiro. Com {age} anos, tenho vasta experiência em React, Node e
+        PHP, e atualmente trabalho na Life.Vet.
+        <br /> Desde 2015, minha paixão por tecnologia e programação me levou a
+        explorar e dominar diversas ferramentas e tecnologias, incluindo
+        ReactJS, TypeScript, Node, GraphQL, entre outras.
       </p>
       <h2 className="mt-6 bg-gradient-to-r from-brand-100 to-highlight-100 bg-clip-text text-center text-lg font-bold leading-relaxed text-transparent lg:text-2xl">
         Conhecimentos
@@ -179,7 +180,7 @@ export function About() {
       </HorizontalScroll>
 
       <h2 className="mt-6 bg-gradient-to-r from-brand-100 to-highlight-100 bg-clip-text text-center text-lg font-bold leading-relaxed text-transparent lg:text-2xl">
-        Trabalhos
+        Projetos Recentes
       </h2>
       <div className="my-2 h-0.5 w-full rounded-full bg-gradient-to-r from-brand-100 to-highlight-100 lg:my-4 lg:h-1"></div>
       <HorizontalScroll
