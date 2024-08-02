@@ -162,7 +162,7 @@ export function About() {
         ReactJS, TypeScript, Node, GraphQL, entre outras.
       </p>
       <h2 className="mt-6 bg-gradient-to-r from-brand-100 to-highlight-100 bg-clip-text text-center text-lg font-bold leading-relaxed text-transparent lg:text-2xl">
-        Conhecimentos
+        Skills
       </h2>
       <div className="my-2 h-0.5 w-full rounded-full bg-gradient-to-r from-brand-100 to-highlight-100 lg:my-4 lg:h-1"></div>
       <HorizontalScroll
