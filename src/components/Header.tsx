@@ -1,14 +1,13 @@
 import { GithubLogo, InstagramLogo, LinkedinLogo } from 'phosphor-react'
 import React from 'react'
 
-import { Logo } from './Logo'
-
+import logo from '../assets/img/logo.png'
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 z-50 w-full bg-backgroundLight shadow-lg">
-      <div className="lg:px-auto mx-auto flex w-full max-w-[1100px] items-center justify-between py-2 px-4">
+    <header className="fixed left-0 top-0 z-50 w-full bg-backgroundLight shadow-lg">
+      <div className="lg:px-auto mx-auto flex w-full max-w-[1100px] items-center justify-between px-4 py-2">
         <a href="#">
-          <Logo width="60" />
+          <img src={logo} alt="Logo" className="w-16" />
         </a>
         <ul className="flex items-center justify-center gap-4">
           <li>

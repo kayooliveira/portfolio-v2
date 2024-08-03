@@ -12,6 +12,8 @@ import {
   ReactOriginalWordmark,
   TypescriptOriginal
 } from 'devicons-react'
+
+import React from 'react'
 import HorizontalScroll from 'react-scroll-horizontal'
 
 import { JobCard } from './JobCard'

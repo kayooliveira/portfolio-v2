@@ -13,7 +13,7 @@ export function JobCard({ image, company, description, url }: JobCardProps) {
       href={url}
       rel="noopener noreferrer"
       target="_blank"
-      className="group relative my-2 mx-2 flex max-w-[200px] shrink-0 flex-col items-center justify-center gap-4 overflow-hidden rounded-lg border-2 border-highlight-800 bg-background px-6 py-4 hover:border-highlight-200"
+      className="group relative mx-2 my-2 flex max-w-[200px] shrink-0 flex-col items-center justify-center gap-4 overflow-hidden rounded-lg border-2 border-highlight-800 bg-background px-6 py-4 hover:border-highlight-200"
     >
       <img
         src={image}
